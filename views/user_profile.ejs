@@ -1,25 +1,25 @@
 <%- include('header'); %>
   <% if(user.id==profile_user.id) {%>
     <!-- main section of user profile-->
-    <div class="container mt-4 col-md-4">
-      <h3 class="py-2">Update profile</h3>
+    <div class="container mt-4 col-md-5" style="background-color: rgb(0, 0, 0);" >
+      <h3 class="py-2" style="color:white;">Update profile</h3>
       <!-- from -->
       <form action="/update" method="POST" class="mt-2 border border-dark rounded p-3" style="--bs-border-opacity: 0.5">
         <!-- username -->
         <div class="mb-3">
-          <label for="username" class="form-label">username</label>
+          <label for="username" class="form-label" style="color:white;">username</label>
           <input type="text" class="form-control" id="username" name="username" value="<%= profile_user.username %>"
             required />
         </div>
         <!-- new password -->
         <div class="mb-3">
-          <label for="password" class="form-label">New password</label>
+          <label for="password" class="form-label" style="color:white;">New password</label>
           <input type="password" class="form-control" id="password" name="password" placeholder="Enter new password"
             required />
         </div>
         <!-- confirm password -->
         <div class="mb-3">
-          <label for="confirm_password" class="form-label">Confirm Password</label>
+          <label for="confirm_password" class="form-label" style="color:white;">Confirm Password</label>
           <input type="password" class="form-control" id="confirm_password" name="confirm_password"
             placeholder="Enter confirm password" required />
         </div>
