@@ -20,7 +20,7 @@ To get started with the backend site, follow the instructions below:
    
 2. Change into the project directory:
     ```bash
-   cd college-placement-backend
+   cd NITJSR-backend
 4. Install the dependencies:
     ```bash
    npm install
