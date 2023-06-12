@@ -9,6 +9,7 @@ To get started with the backend site, follow the instructions below:
 ### Prerequisites
 
 - Node.js installed on your machine. You can download it from the official website: [Node.js](https://nodejs.org)
+- MongoDB Atlas account. You can create one at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas). Register yourself on Mongo db atlas and use your URI for connection.
 
 ### Installation
 
@@ -16,3 +17,7 @@ To get started with the backend site, follow the instructions below:
 
    ```bash
    git clone https://github.com/your-username/college-placement-backend.git
+   
+2. Change into the project directory:
+  ```bash
+   cd college-placement-backend
