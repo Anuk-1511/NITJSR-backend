@@ -41,14 +41,17 @@ To get started with the backend site, follow the instructions below:
 3. The backend site will be available at http://localhost:8080.
 
 ### Project Structure
-├── config            # Contains databse connection
-├── controllers       # Contains route handlers and business logic
-├── models            # Defines the data models using Mongoose
-├── public            # Static files (CSS, JS, images)
-├── routes            # Defines the API routes
-├── views             # EJS templates for rendering HTML
-├── index.js          # Entry point of the application
-└── .env              # Environment variables
+  `bash
+   ├── config            # Contains databse connection
+   ├── controllers       # Contains route handlers and business logic
+   ├── models            # Defines the data models using Mongoose
+   ├── public            # Static files (CSS, JS, images)
+   ├── routes            # Defines the API routes
+   ├── views             # EJS templates for rendering HTML
+   ├── index.js          # Entry point of the application
+   └── .env              # Environment variables`
+
+
 
 ## Deployment
 
