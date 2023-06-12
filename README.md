@@ -17,20 +17,28 @@ To get started with the backend site, follow the instructions below:
 
    ```bash
    git clone https://github.com/your-username/college-placement-backend.git
+   
+2. Change into the project directory:
     ```bash
    cd college-placement-backend
-2. Change into the project directory:
-3. Install the dependencies:
-4. Set up the environment variables:
+4. Install the dependencies:
+    ```bash
+   npm install
+6. Set up the environment variables:
    - Create a .env file in the project root directory.
    - Add the following variables and provide appropriate values:
+    ```bash
+    PORT=8080
+    MONGODB_URI=YOUR_MONGODB_URI
    
   # Note: Replace YOUR_MONGODB_URI with the MongoDB connection URI obtained from MongoDB Atlas.
   
 ### Running the Server
 
 1. Start the server:
-2. The backend site will be available at http://localhost:8080.
+    ```bash
+   npm start
+3. The backend site will be available at http://localhost:8080.
 
 ### Project Structure
 ├── config            # Contains databse connection
