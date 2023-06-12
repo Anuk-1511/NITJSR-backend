@@ -31,7 +31,7 @@ To get started with the backend site, follow the instructions below:
     PORT=8080
     MONGODB_URI=YOUR_MONGODB_URI
    
-  # Note: Replace YOUR_MONGODB_URI with the MongoDB connection URI obtained from MongoDB Atlas.
+  Note: Replace YOUR_MONGODB_URI with the MongoDB connection URI obtained from MongoDB Atlas.
   
 ### Running the Server
 
